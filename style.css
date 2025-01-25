@@ -5,11 +5,13 @@
     scrollbar-width: none;
 }
 
-
 .header{
     position: fixed;
-    height: 13vh;
-    width: 100vw;
+    top: 3%;
+    left: 5vh;
+    border-radius: 30px;
+    height: 10vh;
+    width: 95vw;
     display: flex;
     padding-right: 2rem;
     padding-left: 3rem;
@@ -19,6 +21,7 @@
     color: white;
     font-size: 1.5rem;
     overflow: hidden;
+    z-index: 1;
 }
 
 .site{
@@ -41,8 +44,8 @@ a{
 }
 
 .logo{
-    height: 8rem;
-    width: 8.5rem;
+    height: 6rem;
+    width: 6.5rem;
     border-radius: 50%;
 }
 
@@ -73,24 +76,23 @@ a{
 }
 
 main{
-    background-color: rgba(0, 0, 0, 0.962);
-}
-
-.main{
     display: flex;
-    height: 100vh;
-    justify-content: left;
-    align-items: end;
+    background-color: rgba(0, 0, 0, 0.962);
+    height: 500vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: cener;
 }
 
 .intro{
 
+    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    margin-left: 20px;
-    height: 20rem;
+    height: 7rem;
     width: 40rem;
+    top: 20vh;
 }
 
 .intro span{
@@ -103,7 +105,3 @@ main{
     color: #ffffff;
 }
 
-.intro .para{
-    color: white;
-    font-size: 1.1rem;
-}
