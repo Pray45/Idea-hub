@@ -1,5 +1,5 @@
 const typed = new Typed(".looptype" , {
-    strings:["Code vantage","pray patel.."],
+    strings:["Code Vantage","Pray Patel.."],
     typeSpeed: 120,
     backSpeed: 120,
     loop:true,
