@@ -10,7 +10,7 @@ main{
     justify-items: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(0, 3, 3, 0.962);
+    background-color: rgb(12, 12, 12);
     gap: 10vh;
     width: 100vw;
 }
@@ -95,21 +95,22 @@ a{
 
 .firstpage{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
     height: 100vh;
     width: 100vw;
+    background-image: url("./component/bg.jpg");
 }
 
 .intro{
     position: relative;
     display: flex;
-    justify-self: start;
-    align-self: end;
     justify-content: start;
     align-items: center;
     height: 7rem;
-    width: 40rem;
-    bottom: 15vh;
-    left: 5vh;
+    width: 51rem;
 }
 
 .intro span{
@@ -118,7 +119,19 @@ a{
 }
 
 .intro .h1{
-    font-size: 10vh;
+    font-size: 15vh;
+    color: #ffffff;
+}
+
+.paracon{
+    width: 60%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    font-size: 1.5rem;
     color: #ffffff;
 }
 
@@ -163,7 +176,7 @@ a{
     flex-direction: column;
     height: 70vh;
     width: 28vw;
-    background-color: rgba(59, 59, 59, 0.118);
+    background-color: rgba(34, 34, 34, 0.407);
     border-radius: 20px;
     transition: 1s;
     animation: appear 5s linear ;
@@ -252,14 +265,16 @@ a{
     width: 10vw;
     height: 6vh;
     border-radius: 10px;
-    background-color: transparent;
+    background-color: rgb(41, 40, 40);
+    border: none;
     font-size: 1.3rem;
     color: #ffffff;
 }
 
 .btn:hover{
     transition: 0.5s;
-    color: var(--clr);
+    border: solid 2px;
+    border-color: white
 }
 
 .tp{
